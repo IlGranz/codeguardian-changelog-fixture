@@ -20,7 +20,7 @@ Per utilizzare il repository, è sufficiente clonarlo. Poiché non sono richiest
 # Clone the repository
 git clone https://github.com/<user>/codeguardian-changelog-fixture.git
 cd codeguardian-changelog-fixture
-``` 
+```
 
 ## Project Structure
 ```

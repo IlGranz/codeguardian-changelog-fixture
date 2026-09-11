@@ -27,9 +27,15 @@ cd codeguardian-changelog-fixture
 codeguardian-changelog-fixture/
 ├── README.md         # Questo file README per la descrizione del progetto.
 ├── src/              # Directory principale del codice sorgente del progetto.
+│   ├── api/          # Sottodirectory che include implementazioni in Python e TypeScript.
+│   │   ├── app.py    # File principale dell'API implementato in Python.
+│   │   └── routes.ts # File delle route implementate in TypeScript.
 │   ├── index.ts      # Esempio di file TypeScript.
 │   └── utils.py      # Esempio di file Python.
 ```
 - **src/**: Contiene i file sorgente rilevanti per i test di rilevamento del changelog.
+    - **api/**: Sottodirectory contenente file Python e TypeScript per il backend, utili per testare la gestione di linguaggi multipli.
+        - **app.py**: Contesto codificato esplicitamente per testare modifiche in un file Python.
+        - **routes.ts**: Contesto codificato per testare modifiche in un file TypeScript.
     - **index.ts**: Un file di esempio con modifiche di test codificate a mano.
-    - **utils.py**: Altra componente esemplificativa in Python.
+    - **utils.py**: Altra componente esemplificativa in Python con modifiche test.
